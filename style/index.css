@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto,sans-serif;
+}
+
+body {
+
+background-image: url(../assets/mountains-universe-1.png);
+background-position: center;
+background-size: cover;
+background-repeat:no-repeat;
+height: 100vh;
+}
+
+header {
+    display: flex;
+    padding-inline: 72px;
+    gap: 44px;
+    padding-block: 40px;
+    align-items: center;
+
+  ul {
+    display: flex;
+    gap: 44px;
+    list-style: none; 
+      a {
+        font-size: 22px;
+        text-decoration: none;
+        color: #c4c4cc;
+      }
+      .ativa {
+        color: #FFF;
+        font-weight: 700;
+      }
+  }
+}
+
+main {
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: 220px;
+
+  h1 {
+  font-size: 48px;
+  color: #e1e1e6;
+  line-height: 125%;
+  }
+  a {
+    border:2px solid #FFF;
+    display: block;
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 12px 32px;
+    border-radius: 5px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
